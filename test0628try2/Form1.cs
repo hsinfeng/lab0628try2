@@ -13,5 +13,9 @@ namespace test0628try2 {
         public Form1() {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e) {
+            button1.Text = "OK";
+        }
     }
 }
